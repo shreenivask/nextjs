@@ -5,7 +5,6 @@ import Modal from "./Modal";
 function Todo(props) {
   const[ modalisOpen , setModalIsOpen ] = useState(false);
   function deleteHandler() {
-    console.log(props.title);
     setModalIsOpen(true);
   }
   function closeModalHanlder() {
