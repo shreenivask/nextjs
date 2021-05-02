@@ -1,4 +1,4 @@
-function ListPage() {
+function Por() {
     return (
         <div>
             <h1>Portfolio List Page</h1>
